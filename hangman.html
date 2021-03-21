@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Hangman-game</title>
+    <link rel="stylesheet" href="hangman.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+   
+</head>
+<body>
+
+    <div class="title"> The Hangman Game</div>
+    <div class="instrection">
+        <i class="fas fa-info-circle" id='i'></i>
+    </div>
+    <div class="draw"></div>
+    <div class="word"></div>
+    <div class="buttons">
+        <input id="submit" type="button" value="Submit">
+        <input id="start" type="button"  value="Start New Game">
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">hangman-instructions</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        hangman game is a very exciting game 
+        it is about a random word and you have to know what is this word by guessing the letters 
+        in one turn you can guess exactly one letter and if it is true then you can continue untill
+         you find the word but if it is wrong for 6 times this would cuse to the man died 
+      </div>
+    </div>
+    <div id="overlay"></div>
+
+
+
+
+    <script src="hangman.js"></script>
+</body>
+</html>
