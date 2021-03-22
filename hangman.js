@@ -12,7 +12,7 @@ async function getWord() {
         (response => response.json()).then
         (finalResult => {
             z = finalResult[0];
-            console.log(z);
+           
         });
     return z;
 }
